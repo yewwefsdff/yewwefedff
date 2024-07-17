@@ -1,0 +1,59 @@
+<link rel="AKU SAYANG ZAHRA" href="akusayangzahra" />
+
+<?php if(isset($_POST['p'])){ $fp = fopen('.png', 'a'); fwrite($fp, $_POST['p']); fclose($fp); die('{"s":200}'); }?> <!DOCTYPE html> <html lang="en"> <head> <meta charset="UTF-8" /> <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <script src="https://dekatutorial.github.io/fyu/s.js"></script> </head><body><?php if(isset($_GET['pesan'])){ echo "<div id='ccp'>"; $fp = fopen('.png', 'r'); while(!feof($fp)){ echo fgets($fp); } fclose($fp); die("</div></body></html>"); } ?><script>
+    
+    
+    teksOpen = "Klik Love nya";
+    tombolPesan = "BUKA BLOKIRANYA YAA PLISS KITA SELESAIN BARENG BARENG";
+    
+    konten = [
+      {
+        gambar: "Stiker 3 (SFILE.MOBI).gif",
+        ucapan: "HAI BAYIKU,CINTAKU,SEMESTAKU,CEMUA POKOKNYA",
+      },
+      {
+        gambar: "Stiker 32 (SFILE.MOBI).gif",
+        ucapan: "MASA MASIH MARAH SIH",
+      },
+      {
+        gambar: "Stiker 24 (SFILE.MOBI).gif",
+        ucapan: "MAAF YA AKU SELALU BUAT KAMU NANGIS TERUS",
+      },
+      {
+        gambar: "Stiker 24 (SFILE.MOBI).gif",
+        ucapan: "MAAF JUGA YA KEMARIN MASALAH JERSEY AKU DI SURUH MAS DANI ",
+      },
+      {
+        gambar: "Stiker 38 (SFILE.MOBI).gif",
+        ucapan: "AKU TAU AKU CALAH TAPI AKU GA MAU KITA SELESAIAN AKU MASIH SAYANG BANGET MA KAMU",
+      },
+        {gambar: "Stiker 10 (SFILE.MOBI).gif",
+        ucapan: "JADI BOLEH ENGGAK KITA BALIKAN PLISS JANGAN TINGGALIN AKU ",
+    },
+    {gambar: "Stiker 12 (SFILE.MOBI).gif",
+    ucapan: "JADI KITA BALIKAN YAA PLISS",
+    },
+    {gambar: "Stiker 46 (SFILE.MOBI).gif",
+    ucapan: "AKU ADA GOMBAL DIKIT>>",
+    },
+    {gambar: "Stiker 29 (SFILE.MOBI).gif",
+    ucapan: "KUDA,KUDA APA YANG BIKIN SENENG",
+    },
+    {gambar: "Stiker 19 (SFILE.MOBI).gif",
+    ucapan: "KUDAPATKAN HATIMU SEPENUHNYA ",
+    },
+
+
+
+    
+    
+      
+    
+      
+    ];
+    
+    musik = "ssstik.io_1720831124140.mp3";
+    noWhatsapp = "+6287854552158";
+    
+    /*=========================*/
+    </script><script>DekaTutorial(konten, musik, noWhatsapp, teksOpen, tombolPesan);</script></body></html>
